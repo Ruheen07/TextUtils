@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TextUtils</title>
+</head>
+<body>
+<h1> Welcome to text analyzer. Enter your text here</h1>
+<form action='/analyze' method='get'>
+    <textarea name='text' spellcheck="false" style='width: 877px; height: 136px;'></textarea><br>
+    <input type="checkbox" name="removepunc"> Remove Punctuations<br>
+    <input type="checkbox" name="fullcaps"> UPPERCASE<br>
+    <input type="checkbox" name="newlineremover"> New Line Remover<br>
+    <input type="checkbox" name="extraspaceremover"> Extra Spaces Remover<br>
+    <input type="checkbox" name="charcount">Counting Characters <br>
+    <button type='submit'> Analyze Text </button>
+</form>
+</body>
+</html>
